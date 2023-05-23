@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "user_id": 0,
+        "product_id": 0,
+        "name": "123",
+        "amount": 1,
+        "pickup": "false",
+        "discount": "true"
+    },
+    {
+        "id": 2,
+        "user_id": 0,
+        "product_id": 0,
+        "name": "777",
+        "amount": 2,
+        "pickup": "false",
+        "discount": "false"
+    }
+]

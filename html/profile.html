@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/profile.css">
+        <script src="../js/jquery-3.6.4.min.js"></script>
+        <script src="../js/profile.js"></script>
+        <title>Авторизация</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="logo"><img  src="/img/7.jpg"></li>
+                <li class="link"><strong>Скидка: </strong></li>
+                <li id="bonuses"><strong>0</strong></li>
+                <li id="logoutNav" ><a href="#">Выход</a></li>
+            </ul>
+        </nav>
+        <div id="container">
+            <div align="right"><h1>Профиль</h1></div>
+            <p class="userData" id="userName">Имя: </p>
+            <p class="userData" id="userEmail">Возраст: </p>
+            <p class="userData" id="userGender">Пол: </p>
+            <button id="addOrder">Добавить заказ</button>
+            <table id="ordersTable">
+                <tr>
+                    <th>№</th>
+                    <th>Id заказа</th>
+                    <th>Название заказа</th>
+                    <th>Название товара</th>
+                    <th>Количество</th>
+                    <th>Стоимость</th>
+                    <th>Самовывоз</th>
+                    <th>Карта</th>
+                    <th>Изменить/удалить</th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

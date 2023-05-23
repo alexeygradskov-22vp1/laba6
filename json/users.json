@@ -1,0 +1,43 @@
+[
+    {
+        "id": 0,
+        "username": "123",
+        "password": "$2y$10$FkoYWtXPfnbwpcuU3iPdkeOzpNGJS2LkiQeBr7voMWlYrjsJdKJKG",
+        "name": "вова",
+        "age": "17",
+        "gender": "male"
+    },
+    {
+        "id": 1,
+        "username": "alex",
+        "password": "$2y$10$U9gz\/b\/bzo78qFNjaWoqv.9igByYnKwBI.JstBRIZfDoLPyYlMEn.",
+        "name": "Алексей",
+        "age": "20",
+        "gender": "male"
+    },
+    {
+        "id": 2,
+        "username": "alexety",
+        "password": "$2y$10$U5Sxk1Gm0zSIptISepH6Ge1jg8BHZnwKulfHbYaXlSB87UoRaJCDG",
+        "name": "Алексей",
+        "email": "gradskov2015@gmail.com",
+        "gender": "male",
+        "balance": 25
+    },
+    {
+        "id": 3,
+        "username": "dj_next22",
+        "password": "$2y$10$Sqcmiv.IrQz4UdbxRIuJWeTPXR1djrX11kmwVS515m\/OUfFOcpsnO",
+        "name": "Алексей",
+        "email": "gradskovaleksej@gmail.com",
+        "gender": "male"
+    },
+    {
+        "id": 4,
+        "username": "Alexey1562",
+        "password": "$2y$10$Xr5i7E2XIlec0RyEitMUdO9vhYKYdrRTvTSLd1Y.zUFPpfDlkT9qC",
+        "name": "Алексей",
+        "email": "gradskovaleksej@gmail.com",
+        "gender": "male"
+    }
+]

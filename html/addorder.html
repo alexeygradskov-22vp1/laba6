@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/forms.css">
+        <link rel="stylesheet" href="../css/addorder.css">
+        <script src="../js/jquery-3.6.4.min.js"></script>
+        <script src="../js/addorder.js"></script>
+        <title>Заказ</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="logo"><img src="/img/7.jpg"></li>
+                <li class="link"><strong>Скидка: </strong></li>
+                <li id="bonuses"><strong>0</strong></li>
+                <li id="profileNav"><a href="profile.html">Профиль</a></li>
+                <li id="logoutNav"><a href="#">Выход</a></li>
+            </ul>
+        </nav>
+        <div id="container">
+            <div align="right"><h1>Заказ</h1></div>
+            <span class="errorMessage" id="formError"></span>
+            <form action="../php/addorder.php" id="orderForm">
+                <div class="formField">
+                    <label for="name">Название заказа:</label>
+                    <input type="text" id="name" name="name">
+                    <span class="errorMessage" id="nameError"></span>
+                </div>
+                <div class="formField">
+                    <label for="product">Товар:</label>
+                    <select id="product" name="product">
+                        <option disabled="disabled" selected="selected" value="null">Выберите товар</option>
+                    </select>
+                    <span class="errorMessage" id="productError"></span>
+                </div>
+                <div class="formField">
+                    <label for="amount">Количество:</label>
+                    <input type="number" id="amount" name="amount" min="1">
+                    <span class="errorMessage" id="amountError"></span>
+                </div>
+                <div class="formField">
+                    <div class="delivery">
+                        <label for="deliveryField">Адрес:</label>
+                        <input type="text" id="deliveryField" name="deliveryField"></div>
+                    <label for="pickup">Самовывоз:</label>
+                    <input type="radio" class="radio" id="pickup" name="pickup" value="pickup">
+                    <label for="delivery">Доставка:</label>
+                    <input type="radio" class="radio" id="delivery" name="pickup" value="delivery">
+
+                    <span class="errorMessage" id="pickupError"></span>
+                </div>
+
+                <div class="formField">
+                    <label for="discount">Применить скидку:</label>
+                    <input type="checkbox" id="discount" name="discount">
+                    <span class="errorMessage" id="discountError"></span>
+                </div>
+                <p id="price">Цена: 0 руб.</p>
+                <input id="submit" type="submit" value="Заказать">
+            </form>
+        </div>
+    </body>
+</html>
